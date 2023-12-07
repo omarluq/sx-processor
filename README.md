@@ -29,7 +29,7 @@ The above SLIM template is processed to the following Ruby code:
 # Testing
 Tests are written using Minitest. To run the tests, navigate to the project directory in your terminal and run:
 ```sh
-ruby -Ilib -Itest test/sx_processor_test.rb
+ruby -Ilib -Itest test/sx-processor_test.rb
 ```
 
 ## License
