@@ -2,6 +2,10 @@
 
 SxProcessor is a Ruby class that processes SLIM templates and converts them into Ruby code. It interprets the symbolic expression (sxp) structure of a SLIM template and translates it into appropriately formatted and indented Ruby code.
 
+## Credits
+
+This project was influenced by [slim-lint](https://github.com/sds/slim-lint). The `SxProcessor` borrows from how `slim-lint` implemented their Ruby extractor. We appreciate their work and contributions to the open source community.
+
 ## Usage
 
 ```slim
@@ -26,7 +30,7 @@ The above SLIM template is processed to the following Ruby code:
      'No items found.'
 ```
 
-# Testing
+## Testing
 Tests are written using Minitest. To run the tests, navigate to the project directory in your terminal and run:
 ```sh
 ruby -Ilib -Itest test/sx-processor_test.rb
